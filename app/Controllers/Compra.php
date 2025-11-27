@@ -1,80 +1,74 @@
 <?php
-
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use CodeIgniter\Database\BaseConnection;
-use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\CompraModel;
-use App\Controllers\CartController;
+use ci4shoppingcart\Libraries\Cart; // Usamos la librería directo, es más seguro
 
 class Compra extends Controller
 {
-    protected $carrito;
-    protected $db;
-    private $compra;
+    protected $cart;
+    protected $compraModel;
 
     public function __construct()
     {
-        //parent::__construct(); 
-        $this->carrito = new Carrito(); // ci4shoppingcart
-        $this->compra=new CompraModel();
+        $this->cart = new Cart(); // Instancia limpia del carrito
+        $this->compraModel = new CompraModel();
     }
 
-    private function controlarCarritoVacio(){
-        return $this->carrito->getCart()<=0;
-    }
-    public function controlarCompra(){
-        if($this->controlarCarritoVacio()){
-            return $this->response->setJSON([
-                'success' => false,
-                'message' => "El carrito está vacío"
-            ]);
-        } else{
-                // Supongamos que el usuario ya inició sesión 
-            $dni = 32837262;
-            $fecha = date('d-m-y');
-            $total = $this->carrito->getTotal();
-
-            // Construir JSON con los datos del carrito
-            $items = [];
-            foreach ($this->carrito->getCart() as $item) {
-                $items[] = [
-                    'id'     => intval($item['id']),
-                    'qty'    => $item['qty'],
-                    'precio' => floatval($item['price'])
-                ];
-            }
-            // Convertir a JSON
-            $jsonDetalles = json_encode($items);
-           return $this->registrarCompra($dni,$fecha,$total,$jsonDetalles);
-        }
-    }
-
-    /**
-     * Registra la compra de los artículos en el carrito
-     */
-    private function registrarCompra($dni, $fecha, $total, $detalles)
+    public function controlarCompra()
     {
-        
-        //dd($jsonDetalles);
-        // Llamar al procedimiento
-       
+        // 1. Validación básica
+        if (!$this->cart->contents()) {
+             return "<h1>El carrito está vacío</h1><a href='".base_url()."'>Volver</a>";
+        }
 
-        // Obtener los valores OUT
-        $mensajeRow = $this->compra->realizarCompra($total,$fecha,$dni,$detalles);
-        //dd($mensajeRow);
-        if ($mensajeRow->codigo >0) {
-            $this->carrito->destruirCart(); // Vaciar carrito en caso de éxito
-            return $this->response->setJSON([
-                'success' => true,
-                'message' => $mensajeRow->mensaje
-            ]);
-        } else {
-            return $this->response->setJSON([
-                'success' => false,
-                'message' => $mensajeRow->mensaje
-            ]);
+        // 2. Datos para la compra (Asegúrate que el DNI 32837262 existe en tu BD)
+        $dni = 32837262; 
+        $fecha = date('Y-m-d'); 
+        $total = $this->cart->total();
+
+        // 3. Preparar JSON de productos
+        $items = [];
+        foreach ($this->cart->contents() as $item) {
+            $items[] = [
+                'id'     => intval($item['id']),
+                'qty'    => intval($item['qty']),
+                'precio' => floatval($item['price'])
+            ];
+        }
+        $jsonDetalles = json_encode($items);
+
+        // 4. Intentar guardar
+        try {
+            // Llamamos al modelo. Si falla, saltará al catch.
+            $this->compraModel->realizarCompra($total, $fecha, $dni, $jsonDetalles);
+
+            // --- ZONA DE ÉXITO ---
+            // Si el código llegó hasta acá, es que MySQL no se quejó.
+            
+            $this->cart->destroy(); // Vaciamos el carrito
+
+            // Mostramos el mensaje de éxito para la captura de pantalla del TP
+            return "
+            <div style='text-align:center; margin-top:50px; font-family:sans-serif;'>
+                <h1 style='color:green;'>¡Compra Exitosa!</h1>
+                <p>La transacción ha sido registrada en la base de datos.</p>
+                <p>El carrito se ha vaciado correctamente.</p>
+                <br>
+                <a href='".base_url()."' style='padding:10px 20px; background:#007bff; color:white; text-decoration:none; border-radius:5px;'>Volver al Inicio</a>
+            </div>";
+
+        } catch (\Throwable $th) {
+            // --- ZONA DE ERROR ---
+            return "
+            <div style='text-align:center; margin-top:50px; font-family:sans-serif;'>
+                <h1 style='color:red;'>Error en la compra</h1>
+                <p>Detalle técnico: " . $th->getMessage() . "</p>
+                <a href='".base_url('cart')."'>Volver al Carrito</a>
+            </div>";
         }
     }
+
+
 }

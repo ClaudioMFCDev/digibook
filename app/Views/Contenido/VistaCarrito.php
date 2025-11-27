@@ -37,7 +37,7 @@
 
         <a href="<?= base_url('cart/delete') ?>" class="btn btn-danger btn-eliminar-carrito">Eliminar Carrito</a>
         <a href="<?= base_url('/') ?>" class="btn btn-secondary">Seguir Comprando</a>
-        <a  class="btn btn-success btn-comprar"> Confirmar Compra</a>
-        
+        <a href="<?= base_url('buy/registrar') ?>" class="btn btn-success">Finalizar Compra</a>    
+
     </div>
 <?php } ?>

@@ -13,7 +13,7 @@ $routes->post('cart/add/(:num)', 'Carrito::controlAgregar/$1');
 $routes->get('cart/remove/(:any)', 'Carrito::eliminarArticulo/$1');
 $routes->get('cart/delete', 'Carrito::vaciarCarrito');
 $routes->get('buy/showCart','Carrito::showCart');
-$routes->post('buy/registrar', 'Compra::controlarCompra');
+$routes->get('buy/registrar', 'Compra::controlarCompra');
 
 
 
