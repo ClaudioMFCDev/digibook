@@ -1,0 +1,62 @@
+INFO - 2024-05-27 00:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 00:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 00:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 00:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 00:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 00:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 00:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 00:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-27 00:20:31 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(83): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 01:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 01:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 01:57:22 --> Cart Class Initialized
+INFO - 2024-05-27 02:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:11:57 --> Cart Class Initialized
+CRITICAL - 2024-05-27 02:11:57 --> Error: Cannot use object of type ci4shoppingcart\Libraries\Cart as array
+in APPPATH\Controllers\Home.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 02:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:12:11 --> Cart Class Initialized
+INFO - 2024-05-27 02:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:12:51 --> Cart Class Initialized
+INFO - 2024-05-27 02:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:13:18 --> Cart Class Initialized
+CRITICAL - 2024-05-27 02:13:18 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 02:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:13:33 --> Cart Class Initialized
+INFO - 2024-05-27 02:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:13:51 --> Cart Class Initialized
+CRITICAL - 2024-05-27 02:13:51 --> ErrorException: Undefined array key 0
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-27 02:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:14:03 --> Cart Class Initialized
+INFO - 2024-05-27 02:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:15:07 --> Cart Class Initialized
+INFO - 2024-05-27 02:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-27 02:15:28 --> Cart Class Initialized

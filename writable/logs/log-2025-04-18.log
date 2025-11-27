@@ -1,0 +1,912 @@
+INFO - 2025-04-18 18:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 18:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 18:55:23 --> ErrorException: Undefined variable $autores
+in APPPATH\Views\Contenido\ProductAdmin.php on line 51.
+ 1 APPPATH\Views\Contenido\ProductAdmin.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autores', 'C:\\xampp\\htdocs\\digibook\\app\\Views\\Contenido\\ProductAdmin.php', 51)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\digibook\\app\\Views\\Contenido\\ProductAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/ProductAdmin', [], true)
+ 5 APPPATH\Controllers\ProductController.php(28): view('contenido/ProductAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->show_product_form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 19:01:53 --> TypeError: Illegal offset type
+in APPPATH\Controllers\ProductController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->show_product_form()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 19:02:20 --> ErrorException: Undefined property: stdClass::$idAutor
+in APPPATH\Views\Contenido\ProductAdmin.php on line 68.
+ 1 APPPATH\Views\Contenido\ProductAdmin.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idAutor', 'C:\\xampp\\htdocs\\digibook\\app\\Views\\Contenido\\ProductAdmin.php', 68)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\digibook\\app\\Views\\Contenido\\ProductAdmin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/ProductAdmin', [], true)
+ 5 APPPATH\Controllers\ProductController.php(34): view('contenido/ProductAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->show_product_form()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 19:13:39 --> mysqli_sql_exception: Table 'mate-ecommerce.libros' doesn't exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-04-18 19:13:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'mate-ecommerce.libros' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 5 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:13:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'mate-ecommerce.libros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 7 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:13:39 --> [Caused by] mysqli_sql_exception: Table 'mate-ecommerce.libros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 8 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 19:15:18 --> mysqli_sql_exception: Table 'mate-ecommerce.digibook' doesn't exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'libros', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-04-18 19:15:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'mate-ecommerce.digibook' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `digibook`
+WHERE `libros` = :libros:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'libros', [...], null, 'nombre_libro')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 5 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:15:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'mate-ecommerce.digibook' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `digibook`
+WHERE `libros` = :libros:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'libros', [...], null, 'nombre_libro')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 7 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:15:18 --> [Caused by] mysqli_sql_exception: Table 'mate-ecommerce.digibook' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `digibook`
+WHERE `libros` = :libros:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'libros', [...], null, 'nombre_libro')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 8 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 19:16:39 --> mysqli_sql_exception: Table 'mate-ecommerce.digibook' doesn't exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'libros', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-04-18 19:16:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'mate-ecommerce.digibook' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `digibook`
+WHERE `libros` = :libros:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'libros', [...], null, 'nombre_libro')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 5 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:16:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'mate-ecommerce.digibook' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `digibook`
+WHERE `libros` = :libros:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'libros', [...], null, 'nombre_libro')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 7 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:16:39 --> [Caused by] mysqli_sql_exception: Table 'mate-ecommerce.digibook' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `digibook`
+WHERE `libros` = \'pepe\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `digibook`
+WHERE `libros` = :libros:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'libros', [...], null, 'nombre_libro')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 8 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 19:17:30 --> mysqli_sql_exception: Table 'mate-ecommerce.libros' doesn't exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-04-18 19:17:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'mate-ecommerce.libros' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 5 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:17:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'mate-ecommerce.libros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 7 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:17:30 --> [Caused by] mysqli_sql_exception: Table 'mate-ecommerce.libros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 8 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 19:18:59 --> mysqli_sql_exception: Table 'digibook.libros' doesn't exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-04-18 19:18:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'digibook.libros' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 5 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:18:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'digibook.libros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 7 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:18:59 --> [Caused by] mysqli_sql_exception: Table 'digibook.libros' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libros`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libros`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 8 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 19:19:30 --> mysqli_sql_exception: Unknown column 'nombre' in 'where clause' in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-04-18 19:19:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libro`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 5 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:19:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libro`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libro`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libro`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 7 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 19:19:30 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `libro`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libro`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libro`
+WHERE `nombre` = \'pepe\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libro`
+WHERE `nombre` = :nombre:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'nombre', [...], null, 'nombre_libro')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 8 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 19:42:14 --> CodeIgniter\Validation\Exceptions\ValidationException: "lesser_than" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('lesser_than')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('paginas_libro', 'paginas_libro', '2000', [...], [...])
+ 3 APPPATH\Controllers\ProductController.php(48): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 19:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 19:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 20:53:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@resultado)' at line 1
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 45.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(45): mysqli->prepare('CALL createNewBook(?, ?, ?, ?, ?,?,?,? @resultado)')
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(99): CodeIgniter\Database\MySQLi\PreparedQuery->_prepare('CALL createNewBook(?, ?, ?, ?, ?,?,?,? @resultado)', [])
+ 3 SYSTEMPATH\Database\BaseConnection.php(941): CodeIgniter\Database\BasePreparedQuery->prepare('CALL createNewBook(?, ?, ?, ?, ?,?,?,? @resultado)', [])
+ 4 APPPATH\Models\LibroModel.php(15): CodeIgniter\Database\BaseConnection->prepare(Object(Closure))
+ 5 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 20:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 20:54:18 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(20): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 20:54:18 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(20): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 20:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 20:57:35 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(20): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 20:57:35 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(20): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 20:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 20:58:12 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(20): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 20:58:12 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(20): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 20:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 20:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 20:59:48 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(21): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 20:59:48 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(21): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 21:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-18 21:02:57 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(21): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 21:02:57 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(21): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 21:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 21:05:44 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-04-18 21:05:44 --> CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libro`
+WHERE `titulo` = :titulo:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', [...], null, 'nombre_libro')
+ 4 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 5 APPPATH\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 21:05:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libro`
+WHERE `titulo` = \'pepe\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libro`
+WHERE `titulo` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libro`
+WHERE `titulo` = :titulo:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', [...], null, 'nombre_libro')
+ 6 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 7 APPPATH\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-18 21:05:44 --> [Caused by] mysqli_sql_exception: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT 1
+FROM `libro`
+WHERE `titulo` = \'pepe\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `libro`
+WHERE `titulo` = \'pepe\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `libro`
+WHERE `titulo` = \'pepe\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libro`
+WHERE `titulo` = :titulo:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', [...], null, 'nombre_libro')
+ 7 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 8 APPPATH\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 21:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 21:05:57 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'digibook', 3306, '', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', Array, NULL, 'nombre_libro')
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#6 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-04-18 21:05:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libro`
+WHERE `titulo` = :titulo:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', [...], null, 'nombre_libro')
+ 5 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 6 APPPATH\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 21:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-18 21:06:11 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=23152 in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'digibook', 3306, '', 0)
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', Array, NULL, 'nombre_libro')
+#7 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#8 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#11 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'digibook', 3306, '', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', Array, NULL, 'nombre_libro')
+#6 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#7 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\digibook\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\digibook\system\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\digibook\system\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', Array, NULL, 'nombre_libro')
+#5 C:\xampp\htdocs\digibook\system\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', Array, Array)
+#6 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#8 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#9 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-04-18 21:06:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `libro`
+WHERE `titulo` = :titulo:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(227): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(328): CodeIgniter\Validation\StrictRules\Rules->is_unique('pepe', 'titulo', [...], null, 'nombre_libro')
+ 5 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('nombre_libro', 'nombre_libro', 'pepe', [...], [...])
+ 6 APPPATH\Controllers\ProductController.php(47): CodeIgniter\Validation\Validation->run()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-18 23:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 23:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-18 23:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

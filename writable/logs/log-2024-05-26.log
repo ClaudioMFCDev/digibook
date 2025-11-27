@@ -1,0 +1,285 @@
+CRITICAL - 2024-05-26 23:59:12 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-26 23:59:12 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php(56): format_number(12.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(152): number_to_size(12.0, 2)
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(12582912)
+#3 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-26 22:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 22:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 22:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 22:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 22:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 22:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 22:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 22:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:37:10 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:38:43 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:38:44 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:38:48 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:39:04 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:39:05 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:39:59 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:40:26 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:40:27 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:40:29 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:42:17 --> Error: Class "JasonN\Cart\Cart" not found
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Home.php(13): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-26 23:47:36 --> mysqli_sql_exception: Table 'bd_natalia.motivos' doesn't exist in C:\xampp\htdocs\proyecto_BenitezNatalia\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_BenitezNatalia\system\BaseModel.php(577): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\proyecto_BenitezNatalia\app\Controllers\Home.php(63): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+#8 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_BenitezNatalia\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-26 23:47:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'bd_natalia.motivos' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `motivos`
+WHERE `motivos`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(false, null)
+ 4 APPPATH\Controllers\Home.php(63): CodeIgniter\BaseModel->find()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 23:47:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'bd_natalia.motivos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `motivos`
+WHERE `motivos`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `motivos`
+WHERE `motivos`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `motivos`
+WHERE `motivos`.`deleted_at` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(false, null)
+ 6 APPPATH\Controllers\Home.php(63): CodeIgniter\BaseModel->find()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-26 23:47:36 --> [Caused by] mysqli_sql_exception: Table 'bd_natalia.motivos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `motivos`
+WHERE `motivos`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `motivos`
+WHERE `motivos`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `motivos`
+WHERE `motivos`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `motivos`
+WHERE `motivos`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(202): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(577): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Home.php(63): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:53:53 --> Error: Call to a member function find() on null
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:54:21 --> Error: Call to a member function find() on null
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:54:22 --> Error: Call to a member function find() on null
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:56:05 --> ErrorException: Undefined array key "name"
+in APPPATH\Controllers\Home.php on line 67.
+ 1 APPPATH\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Controllers\\Home.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-26 23:56:24 --> ErrorException: Attempt to read property "name" on array
+in APPPATH\Controllers\Home.php on line 67.
+ 1 APPPATH\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Controllers\\Home.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-26 23:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-26 23:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

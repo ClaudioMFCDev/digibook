@@ -1,0 +1,36 @@
+CRITICAL - 2024-05-14 18:39:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contenido/registrarse.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/registrarse.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/registrarse', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('contenido/registrarse')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 18:44:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contenido/registro_cliente_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/registro_cliente_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/registro_cliente_view', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('contenido/registro_cliente_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 18:49:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contenido/registro_cliente_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/registro_cliente_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/registro_cliente_view', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('contenido/registro_cliente_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-14 18:49:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contenido/registro_cliente_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contenido/registro_cliente_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/registro_cliente_view', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('contenido/registro_cliente_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

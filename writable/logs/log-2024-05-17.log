@@ -1,0 +1,9 @@
+CRITICAL - 2024-05-17 19:44:05 --> ParseError: Unmatched ')'
+in APPPATH\Views\Contenido\registrarse.php on line 41.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/registrarse', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('contenido/registrarse')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,564 @@
+CRITICAL - 2024-05-21 01:51:39 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-21 01:51:39 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php(56): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(152): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-21 01:52:18 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-21 01:52:18 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php(56): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(152): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-21 01:52:20 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-21 01:52:20 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php(56): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(152): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-21 01:52:59 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-05-21 01:52:59 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Helpers\number_helper.php(56): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(152): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto_BenitezNatalia\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\proyecto_BenitezNatalia\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-21 00:23:54 --> CodeIgniter\Validation\Exceptions\ValidationException: "requerid" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requerid')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('consulta', 'consulta', 'La consulta', [...], [...])
+ 3 APPPATH\Controllers\Cliente_controller.php(31): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:24:17 --> CodeIgniter\Validation\Exceptions\ValidationException: "requered" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requered')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('consulta', 'consulta', 'La consulta', [...], [...])
+ 3 APPPATH\Controllers\Cliente_controller.php(31): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:30:51 --> ArgumentCountError: Too few arguments to function App\Controllers\Cliente_controller::add_consulta(), 0 passed in C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Cliente_controller.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:32:01 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\Cliente_controller.php on line 9.
+ 1 APPPATH\Controllers\Cliente_controller.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Controllers\\Cliente_controller.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:38:06 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 11.
+ 1 APPPATH\Views\Contenido\contacto.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(42): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:43:50 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 11.
+ 1 APPPATH\Views\Contenido\contacto.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(42): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:47:32 --> ErrorException: Undefined variable $session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(42): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:48:48 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(42): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:49:30 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(42): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:51:58 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(42): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:52:32 --> ErrorException: Undefined global variable $_SESSION
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(42): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:53:01 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(42): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:54:50 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(43): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:57:56 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(43): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 00:58:09 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(43): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 00:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 00:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 00:58:18 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 12.
+ 1 APPPATH\Views\Contenido\contacto.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 01:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 01:03:48 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 15.
+ 1 APPPATH\Views\Contenido\contacto.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(43): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:04:43 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 15.
+ 1 APPPATH\Views\Contenido\contacto.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(43): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:05:48 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 16.
+ 1 APPPATH\Views\Contenido\contacto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(43): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:06:44 --> ErrorException: Undefined global variable $_SESSION
+in APPPATH\Views\Contenido\contacto.php on line 13.
+ 1 APPPATH\Views\Contenido\contacto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(43): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 01:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 01:10:39 --> Error: Call to a member function get() on null
+in APPPATH\Views\Contenido\contacto.php on line 13.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 4 APPPATH\Controllers\Cliente_controller.php(43): view('contenido/contacto')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 01:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 01:20:17 --> ErrorException: Undefined variable $session
+in APPPATH\Views\Contenido\contacto.php on line 13.
+ 1 APPPATH\Views\Contenido\contacto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(44): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 01:20:40 --> ErrorException: Undefined variable $data
+in APPPATH\Views\Contenido\contacto.php on line 13.
+ 1 APPPATH\Views\Contenido\contacto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(44): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 01:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 01:38:06 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 13.
+ 1 APPPATH\Views\Contenido\contacto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(47): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 01:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 01:40:46 --> ErrorException: Undefined variable $session
+in APPPATH\Views\Contenido\contacto.php on line 13.
+ 1 APPPATH\Views\Contenido\contacto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(48): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 01:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 01:42:19 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 13.
+ 1 APPPATH\Views\Contenido\contacto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(48): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 01:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 01:46:37 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 13.
+ 1 APPPATH\Views\Contenido\contacto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(49): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 01:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 01:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 02:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:12:56 --> Error: Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Views\Contenido\contacto.php on line 14.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 4 APPPATH\Controllers\Cliente_controller.php(50): view('contenido/contacto')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:14:50 --> Error: Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Views\Contenido\contacto.php on line 14.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 4 APPPATH\Controllers\Cliente_controller.php(51): view('contenido/contacto')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:15:08 --> ErrorException: Undefined variable $session
+in APPPATH\Views\Contenido\contacto.php on line 16.
+ 1 APPPATH\Views\Contenido\contacto.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Cliente_controller.php(51): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:22:27 --> Error: Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Controllers\Cliente_controller.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:26:11 --> ArgumentCountError: Too few arguments to function App\Controllers\Cliente_controller::add_consulta(), 0 passed in C:\xampp\htdocs\proyecto_BenitezNatalia\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Cliente_controller.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:32:31 --> Error: Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Controllers\Cliente_controller.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Cliente_controller->add_consulta()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:35:55 --> Error: Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Views\Contenido\contacto.php on line 14.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 4 APPPATH\Controllers\Home.php(51): view('contenido/contacto')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:36:22 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\Contenido\contacto.php on line 14.
+ 1 APPPATH\Views\Contenido\contacto.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\contacto.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('contenido/contacto')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-21 03:37:37 --> Error: Object of class CodeIgniter\Session\Session could not be converted to string
+in APPPATH\Views\Contenido\contacto.php on line 14.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 4 APPPATH\Controllers\Home.php(51): view('contenido/contacto')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-21 03:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-21 03:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

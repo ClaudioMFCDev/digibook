@@ -1,0 +1,750 @@
+CRITICAL - 2025-04-19 01:18:09 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-04-19 01:18:09 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\digibook\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\xampp\htdocs\digibook\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\digibook\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\digibook\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\digibook\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-19 01:19:23 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-04-19 01:19:23 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\digibook\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\xampp\htdocs\digibook\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\digibook\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\digibook\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\digibook\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-19 01:19:24 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-04-19 01:19:24 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\digibook\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\xampp\htdocs\digibook\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\digibook\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\digibook\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\digibook\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-19 01:19:44 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-04-19 01:19:44 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\digibook\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\xampp\htdocs\digibook\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\digibook\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\digibook\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\digibook\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-04-19 04:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 04:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 04:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 04:56:46 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(22): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 04:56:46 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(22): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:00:58 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(22): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:00:58 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(22): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:01:07 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(22): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:01:07 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(22): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:01:44 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:01:44 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:08:14 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:08:14 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(64): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:08:57 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:08:57 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:09:26 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:09:26 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:10:03 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:10:03 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:10:53 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:10:53 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(17): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:16:57 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(16): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:16:57 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(16): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:19:15 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(16): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:19:15 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(16): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:20:01 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(19): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:20:01 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(19): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:24:21 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(31): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:24:21 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(31): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-19 05:24:30 --> CodeIgniter\Database\Exceptions\DatabaseException: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\BasePreparedQuery.php on line 161.
+ 1 APPPATH\Models\LibroModel.php(31): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:24:30 --> [Caused by] ArgumentCountError: The number of variables must match the number of parameters in the prepared statement
+in SYSTEMPATH\Database\MySQLi\PreparedQuery.php on line 82.
+ 1 SYSTEMPATH\Database\MySQLi\PreparedQuery.php(82): mysqli_stmt->bind_param('s', [...])
+ 2 SYSTEMPATH\Database\BasePreparedQuery.php(125): CodeIgniter\Database\MySQLi\PreparedQuery->_execute([...])
+ 3 APPPATH\Models\LibroModel.php(31): CodeIgniter\Database\BasePreparedQuery->execute([...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:27:56 --> mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertar...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertar...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertar...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertar...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-04-19 05:27:56 --> CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:27:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:27:56 --> [Caused by] mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 4 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 5 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:28:14 --> mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertar...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertar...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertar...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertar...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-04-19 05:28:14 --> CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:28:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:28:14 --> [Caused by] mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 4 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 5 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:28:44 --> mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertar...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertar...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertar...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertar...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-04-19 05:28:44 --> CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:28:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:28:44 --> [Caused by] mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 4 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 5 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:29:00 --> mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertar...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertar...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertar...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertar...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-04-19 05:29:00 --> CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:29:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:29:00 --> [Caused by] mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 4 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 5 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:29:04 --> mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertar...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertar...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertar...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertar...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-04-19 05:29:04 --> CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:29:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:29:04 --> [Caused by] mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 4 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 5 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:29:52 --> mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertar...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertar...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertar...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertar...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-04-19 05:29:52 --> CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 2 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:29:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 4 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-04-19 05:29:52 --> [Caused by] mysqli_sql_exception: FUNCTION digibook2.insertarLibroAutor does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT insertarLibroAutor(\'pepe\', 1000,1,\'prueba de inserción\',189,1,1) AS resultado')
+ 4 APPPATH\Models\LibroModel.php(28): CodeIgniter\Database\BaseConnection->query('SELECT insertarLibroAutor(?, ?,?,?,?,?,?) AS resultado', [...])
+ 5 APPPATH\Controllers\ProductController.php(63): App\Models\LibroModel->create_book([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-04-19 05:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:40:41 --> mysqli_sql_exception: PROCEDURE digibook2.insertarLibroAutor does not exist in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('CALL insertarLi...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL insertarLi...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL insertarLi...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL insertarLi...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2025-04-19 05:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:47:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS resultado' at line 1 in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * AS res...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * AS res...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * AS res...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * AS res...')
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2025-04-19 05:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:47:41 --> mysqli_sql_exception: No tables used in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT *')
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2025-04-19 05:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:54:11 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE digibook2.insertarLibroAutor; expected 10, got 9 in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('CALL insertarLi...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL insertarLi...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL insertarLi...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL insertarLi...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2025-04-19 05:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:56:51 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE digibook2.insertarLibroAutor; expected 10, got 9 in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('CALL insertarLi...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL insertarLi...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL insertarLi...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL insertarLi...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2025-04-19 05:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:57:05 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE digibook2.insertarLibroAutor; expected 10, got 9 in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('CALL insertarLi...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL insertarLi...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL insertarLi...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL insertarLi...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2025-04-19 05:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 05:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-19 05:57:28 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE digibook2.insertarLibroAutor; expected 10, got 9 in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(306): mysqli->query('CALL insertarLi...', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL insertarLi...')
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL insertarLi...')
+#3 C:\xampp\htdocs\digibook\app\Models\LibroModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL insertarLi...', Array)
+#4 C:\xampp\htdocs\digibook\app\Controllers\ProductController.php(63): App\Models\LibroModel->create_book(Array)
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\ProductController->create_book()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2025-04-19 06:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 06:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 07:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 07:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-19 07:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

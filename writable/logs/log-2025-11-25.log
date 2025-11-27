@@ -1,0 +1,128 @@
+CRITICAL - 2025-11-25 17:47:34 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-11-25 17:47:35 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\digibook\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Helpers\number_helper.php(56): format_number(14.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(152): number_to_size(14.0, 2)
+#2 C:\xampp\htdocs\digibook\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(14680064)
+#3 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\digibook\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\digibook\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\digibook\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\digibook\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\digibook\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\digibook\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-11-25 19:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 19:43:24 --> Error: Class "ci4shoppingcart\Libraries\Cart" not found
+in APPPATH\Controllers\Carrito.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Carrito->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-11-25 19:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 19:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 19:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 19:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 19:53:56 --> Error: Class "ci4shoppingcart\Libraries\Cart" not found
+in APPPATH\Controllers\Carrito.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Carrito->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-25 19:54:02 --> Error: Class "ci4shoppingcart\Libraries\Cart" not found
+in APPPATH\Controllers\Carrito.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Carrito->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-11-25 19:54:21 --> Error: Class "ci4shoppingcart\Libraries\Cart" not found
+in APPPATH\Controllers\Carrito.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Carrito->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-11-25 20:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-25 20:51:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'digibook2', 3306, '', 0)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\digibook\app\Models\ArticuloModel.php(63): CodeIgniter\Database\BaseConnection->query('CALL obtenerLib...')
+#4 C:\xampp\htdocs\digibook\app\Controllers\Home.php(30): App\Models\ArticuloModel->getArticulos()
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\digibook\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\digibook\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\digibook\app\Models\ArticuloModel.php(63): CodeIgniter\Database\BaseConnection->query('CALL obtenerLib...')
+#3 C:\xampp\htdocs\digibook\app\Controllers\Home.php(30): App\Models\ArticuloModel->getArticulos()
+#4 C:\xampp\htdocs\digibook\system\CodeIgniter.php(941): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\digibook\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\digibook\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\digibook\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-11-25 20:51:39 --> ErrorException: foreach() argument must be of type array|object, int given
+in APPPATH\Views\Contenido\index.php on line 10.
+ 1 APPPATH\Views\Contenido\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'C:\\xampp\\htdocs\\digibook\\app\\Views\\Contenido\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\digibook\\app\\Views\\Contenido\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Contenido/index', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('Contenido/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-11-25 20:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 20:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 20:58:56 --> Cart Class Initialized
+INFO - 2025-11-25 20:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 20:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 20:59:02 --> Cart Class Initialized
+INFO - 2025-11-25 20:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 20:59:02 --> Cart Class Initialized
+INFO - 2025-11-25 20:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 20:59:06 --> Cart Class Initialized
+INFO - 2025-11-25 20:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 20:59:06 --> Cart Class Initialized
+INFO - 2025-11-25 20:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:32 --> Cart Class Initialized
+INFO - 2025-11-25 23:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:33 --> Cart Class Initialized
+INFO - 2025-11-25 23:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:38 --> Cart Class Initialized
+INFO - 2025-11-25 23:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:41 --> Cart Class Initialized
+INFO - 2025-11-25 23:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:44 --> Cart Class Initialized
+INFO - 2025-11-25 23:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:40:44 --> Cart Class Initialized
+INFO - 2025-11-25 23:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:41:07 --> Cart Class Initialized
+INFO - 2025-11-25 23:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:41:44 --> Cart Class Initialized
+INFO - 2025-11-25 23:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-11-25 23:47:55 --> Cart Class Initialized

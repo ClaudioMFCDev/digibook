@@ -1,0 +1,45 @@
+CRITICAL - 2024-03-30 18:06:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "proyecto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('proyecto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('proyecto', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('proyecto')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 18:07:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "proyecto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('proyecto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('proyecto', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('proyecto')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 19:07:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "proyecto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('proyecto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('proyecto', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('proyecto')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 19:14:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "proyecto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('proyecto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('proyecto', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('proyecto')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 19:28:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "proyecto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('proyecto.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('proyecto', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('proyecto')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

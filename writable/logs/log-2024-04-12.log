@@ -1,0 +1,61 @@
+CRITICAL - 2024-04-12 01:34:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "navbar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('navbar', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('navbar')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:27:37 --> ErrorException: Undefined variable $totalTime
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'C:\\xampp\\htdocs\\proyecto\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(512): include('C:\\xampp\\htdocs\\proyecto\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:50:53 --> ErrorException: Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto\\app\\Controllers\\Home.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:56:05 --> ErrorException: Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto\\app\\Controllers\\Home.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 18:57:22 --> ErrorException: Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto\\app\\Controllers\\Home.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 19:05:32 --> ErrorException: Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto\\app\\Controllers\\Home.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 19:05:36 --> ErrorException: Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto\\app\\Controllers\\Home.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-12 19:05:59 --> ErrorException: Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\proyecto\\app\\Controllers\\Home.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

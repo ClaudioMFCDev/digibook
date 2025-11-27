@@ -1,0 +1,64 @@
+CRITICAL - 2024-05-18 17:03:30 --> Error: Call to undefined function form_error()
+in APPPATH\Views\Contenido\contacto.php on line 30.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/contacto', [], true)
+ 4 APPPATH\Controllers\Home.php(47): view('contenido/contacto')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->Contacto()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-18 21:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-18 21:52:00 --> ErrorException: Array to string conversion
+in APPPATH\Views\Contenido\iniciarSesion.php on line 10.
+ 1 APPPATH\Views\Contenido\iniciarSesion.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\iniciarSesion.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\iniciarSesion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/iniciarSesion', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('contenido/iniciarSesion')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->IniciarSesion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-18 21:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-18 21:57:42 --> ErrorException: Array to string conversion
+in APPPATH\Views\Contenido\iniciarSesion.php on line 10.
+ 1 APPPATH\Views\Contenido\iniciarSesion.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\iniciarSesion.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\iniciarSesion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/iniciarSesion', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('contenido/iniciarSesion')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->IniciarSesion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-18 21:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-18 21:57:44 --> ErrorException: Array to string conversion
+in APPPATH\Views\Contenido\iniciarSesion.php on line 10.
+ 1 APPPATH\Views\Contenido\iniciarSesion.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\iniciarSesion.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\iniciarSesion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/iniciarSesion', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('contenido/iniciarSesion')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->IniciarSesion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-18 21:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-18 21:57:50 --> ErrorException: Array to string conversion
+in APPPATH\Views\Contenido\iniciarSesion.php on line 10.
+ 1 APPPATH\Views\Contenido\iniciarSesion.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\iniciarSesion.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\proyecto_BenitezNatalia\\app\\Views\\Contenido\\iniciarSesion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('contenido/iniciarSesion', [], true)
+ 5 APPPATH\Controllers\Home.php(30): view('contenido/iniciarSesion')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->IniciarSesion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-18 22:01:28 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

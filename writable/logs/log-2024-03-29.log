@@ -1,0 +1,96 @@
+CRITICAL - 2024-03-29 14:10:02 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-29 14:10:02 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\proyecto\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\system\Helpers\number_helper.php(56): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(152): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\proyecto\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\proyecto\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\proyecto\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 14:18:15 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-29 14:18:16 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\proyecto\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\system\Helpers\number_helper.php(56): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(152): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\proyecto\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\proyecto\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\proyecto\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 14:18:21 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-29 14:18:21 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\proyecto\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\system\Helpers\number_helper.php(56): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(152): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\proyecto\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\proyecto\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\proyecto\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proyecto\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\proyecto\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\proyecto\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-29 13:49:43 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\ejercicio1.php on line 2.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ejercicio1', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('ejercicio1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 14:00:08 --> ParseError: syntax error, unexpected token ">", expecting end of file
+in APPPATH\Views\ejercicio1.php on line 16.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ejercicio1', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('ejercicio1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
