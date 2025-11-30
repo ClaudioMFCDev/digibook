@@ -17,10 +17,26 @@
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $libro['Autores'] ?></h5>
                                 <p class="card-text"><?php echo $libro['Género'] ?></p>
-                                <p class="card-text py-3 fs-3 rounded bg-primary">
+
+                                <?php 
+                                    // 1. Obtenemos el nombre del archivo de la BD (o vacío si no hay)
+                                    $nombreArchivo = $libro['img'] ?? ''; 
+
+                                    // 2. Calculamos la ruta final
+                                    if (!empty($nombreArchivo)) {
+                                        // Si hay imagen, usamos esa
+                                        $rutaImagen = base_url('public/imagenes/' . $nombreArchivo);
+                                    } else {
+                                        // Si no hay, usamos la por defecto
+                                        $rutaImagen = base_url('public/imagenes/default.png');
+                                    }
+                                ?>
+
+                                <img src="<?= $rutaImagen ?>" class="card-img-top" alt="Portada" style="height: 300px; object-fit: cover; width: 100%;">
+
+                                <p class="card-text mt-2 fs-3 rounded bg-primary">
                                     <?php echo '$' . $libro['Precio'] ?>
                                 </p>
-
                             </div>
                             <div class="card-footer text-body-secondary">
                                 <form action="<?= base_url('cart/add/' . $libro['id']) ?>" method="post">

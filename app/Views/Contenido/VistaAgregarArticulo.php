@@ -19,8 +19,7 @@
 
 <div class="container w-75">
   <h1 class="bg-dark text-light text-center mt-5 rounded p-3">Registrar Nuevo Libro</h1>
-  <form class="m-3" action="<?php echo base_url('create_book') ?>" method="post">
-    <!-- Nombre -->
+  <form action="<?= base_url('create_book') ?>" method="post" enctype="multipart/form-data">    <!-- Nombre -->
     <div class="mb-3">
       <label for="nombre_libro" class="form-label">Título</label>
       <!--old permite mantener el viejo valor que tenía el input cuando se redirige la vista-->
@@ -119,15 +118,20 @@
 
      <!-- Sinopsis -->
      <div class="mb-3">
-                    <label for="sinopsis_libro" class="form-label">Sinopsis</label>
-                    <textarea name="sinopsis_libro" id="sinopsis_libro" rows="4" class="form-control
-                     <?= session('errors.sinopsis_libro') ? 'is-invalid' : '' ?>"><?= old('sinopsis_libro') ?></textarea>
-                    <?php if(session('errors.sinopsis_libro')): ?>
-                        <div class="invalid-feedback"><?= session('errors.sinopsis_libro') ?></div>
-                    <?php endif; ?>
-                </div>
+        <label for="sinopsis_libro" class="form-label">Sinopsis</label>
+        <textarea name="sinopsis_libro" id="sinopsis_libro" rows="4" class="form-control
+          <?= session('errors.sinopsis_libro') ? 'is-invalid' : '' ?>"><?= old('sinopsis_libro') ?></textarea>
+        <?php if(session('errors.sinopsis_libro')): ?>
+            <div class="invalid-feedback"><?= session('errors.sinopsis_libro') ?></div>
+        <?php endif; ?>
+    </div>
 
- 
+    <!-- Imagen/portada -->    
+    <div class="mb-3">
+        <label for="imagen" class="form-label">Portada del Libro</label>
+        <input class="form-control" type="file" id="imagen" name="imagen" accept="image/*">
+    </div>
+
     <button type="submit" class="btn btn-primary">Cargar</button>
   </form>
 </div>

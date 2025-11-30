@@ -29,10 +29,11 @@ class ArticuloModel extends Model
         $data['paginas'],
         $data['autor_id'],
         $data['genero_id'],
+        $data['img'],
         $fecha
     ];
     //la sentencia sql que llama al procedimiento en mysql
-    $sql = "CALL crearNuevoLibro(?, ?, ?, ?, ?, ?, ?, ?, @resultado, @msj_error)";
+    $sql = "CALL crearNuevoLibro(?, ?, ?, ?, ?, ?, ?, ?, ?, @resultado, @msj_error)";
     
     try {
         // Ejecutar el procedimiento con los parámetros

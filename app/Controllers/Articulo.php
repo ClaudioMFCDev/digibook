@@ -48,6 +48,19 @@ class Articulo extends BaseController{
         //el helper ayuda al control de errores.
         helper(['form']);
 
+        // Recibimos el archivo del formulario
+        $archivoImagen = $this->request->getFile('imagen');
+        $nombreImagen = null; // Por defecto null si no sube nada
+
+        // Verificamos si subió algo y si es válido
+        if ($archivoImagen && $archivoImagen->isValid() && !$archivoImagen->hasMoved()) {
+            // Generamos un nombre aleatorio para que no se repitan (ej: 12345.jpg)
+            $nombreImagen = $archivoImagen->getRandomName();
+            
+            // Movemos el archivo a la carpeta public/uploads
+            $archivoImagen->move('public/imagenes', $nombreImagen);
+        }
+
         // creo el objeto para la validación del formulario
         $validation = \Config\Services::validation();
         //la validación se encuentra en app->Config->Validation.php
@@ -70,6 +83,7 @@ class Articulo extends BaseController{
             'paginas' => intval($this->request->getPost('paginas_libro')),
             'autor_id' => intval($this->request->getPost('autor_libro')),
             'genero_id' => intval($this->request->getPost('genero_libro')),
+            'img'    => $nombreImagen,
             'fecha_publicacion' =>date('Y-m-d', strtotime( $this->request->getPost('fecha_libro'))) 
         ];
         //creo una instancia del modelo LibroModel
