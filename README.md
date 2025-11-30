@@ -1,59 +1,77 @@
-# DigiBook 📚
+# 📚 DigiBook - Plataforma de Venta de Libros Digitales
 
-**DigiBook** es una plataforma web para la venta de libros digitales. Nuestro objetivo es ofrecer una experiencia sencilla y eficiente para que los usuarios puedan buscar y comprar libros electrónicos desde cualquier lugar.
+**DigiBook** es una aplicación web desarrollada como trabajo final para la cátedra de **Ingeniería de Software 2**. El sistema permite la gestión y venta de libros digitales, implementando un flujo completo de comercio electrónico desde el catálogo hasta la simulación de compra.
 
-## 🚀 Estado del proyecto
+El proyecto destaca por su rigurosa **trazabilidad**, alineando la implementación técnica con la documentación de requisitos basada en la metodología **NDT (Navigational Development Techniques)**.
 
-Este es un proyecto en desarrollo como parte del curso de la materia Ingeniería de Software II de la carrera Lic. en Sistemas de Información de la UNNE. En esta etapa, nos encontramos trabajando en las funcionalidades básicas del sistema.
+## 🚀 Características Principales
 
-## 🛠️ Tecnologías utilizadas
+* **Catálogo Visual:** Visualización de libros con portadas, precios y detalles (Autor, Género, Editorial).
+* **Gestión de Carrito:** Funcionalidad completa de agregar, eliminar ítems y vaciar carrito (usando librería externa).
+* **Proceso de Compra:** Registro transaccional de ventas utilizando **Procedimientos Almacenados** en MySQL para garantizar la integridad de datos (Cabecera + Detalles).
+* **Administración (ABM):** Formulario para la carga de nuevos libros con soporte para **subida de imágenes** (multipart/form-data).
+* **Arquitectura MVC:** Separación limpia de lógica de negocio, datos e interfaz.
 
-- **Backend:** PHP con [CodeIgniter 4](https://codeigniter.com/)
-- **Frontend:** HTML, CSS, JavaScript, [Bootstrap 5](https://getbootstrap.com/)
-- **Base de datos:** MySQL
-- **Control de versiones:** Git y GitHub
+## 🛠️ Tecnologías Utilizadas
 
-## 👥 Equipo de desarrollo
+### Backend & Framework
+* **Lenguaje:** PHP 8.1+
+* **Framework:** [CodeIgniter 4](https://codeigniter.com/) (MVC)
+* **Gestión de Dependencias:** Composer
 
-Somos un equipo de 5 integrantes trabajando en colaboración:
+### Base de Datos
+* **Motor:** MySQL 8.0
+* **Características:** Uso intensivo de **Stored Procedures** y **Transacciones** para lógica de negocio crítica.
 
-- Castillo, Claudio Marcelo Fabian 
-- Espinoza, Enrique Manuel 
-- Miguel, Isabel de los Angeles 
-- Olivos Battestin, Santiago Nicolás 
-- Ortiz, Julio Sebastian
+### Frontend
+* **Estilos:** Bootstrap 5
+* **Librerías:** JQuery (para interacciones AJAX en el carrito).
 
-## 📌 Funcionalidades previstas
+### Metodología y Herramientas
+* **Metodología:** NDT (Navigational Development Techniques).
+* **Modelado:** Enterprise Architect (Gantt, Diagramas UML).
 
-- Registro e inicio de sesión de usuarios  
-- Catálogo de libros digitales  
-- Carrito de compras  
-- Descarga de libros comprados  
-- Panel de administración para gestión de libros  
+## 📋 Requisitos de Instalación
 
-## 📁 Estructura del repositorio
+1.  **Servidor Web:** XAMPP, Laragon o similar con Apache y MySQL.
+2.  **PHP Extensions:** Deben estar habilitadas `intl`, `mbstring` y `zip` en el `php.ini`.
+3.  **Composer:** Instalado globalmente.
 
-/app Código fuente del backend con CodeIgniter
+## 🔧 Configuración del Proyecto
 
-/public Archivos públicos (Bootstrap, imágenes, index.php)
+Sigue estos pasos para levantar el entorno local:
 
-/database Scripts de base de datos
+### 1. Clonar y Dependencias
+Clona el repositorio en tu carpeta `htdocs` y ejecuta Composer para descargar las librerías:
 
-README.md Este archivo
+    git clone https://github.com/ClaudioMFCDev/digibook.git
+    cd digibook
+    composer install
 
+### 2. Base de Datos
+1.  Crea una base de datos en MySQL llamada `digibook2`.
+2.  Importa el script SQL ubicado en `/database/digibook2.sql`.
+3.  Configura la conexión en el archivo `.env` o en `app/Config/Database.php`.
 
-## 🔧 Cómo ejecutar el proyecto (modo local)
+### 3. Configuración de Imágenes
+El sistema almacena las portadas en la carpeta pública. Asegúrate de que exista la siguiente ruta y tenga permisos de escritura:
 
-1. Clona este repositorio:
-```
-git clone https://github.com/eme-19-87/ing2-trabajo-campo.git
-```
-2. Configura el entorno en tu servidor local (XAMPP, MAMP, etc.).
-3. Importa la base de datos desde el archivo correspondiente (próximamente).
-4. Accede al proyecto desde tu navegador.
+    public/imagenes/
+
+> **Nota:** Si usas XAMPP, recuerda aumentar el `upload_max_filesize` en tu `php.ini` si planeas subir imágenes de alta resolución.
+
+## 📖 Uso
+
+1.  Accede a `http://localhost/digibook`.
+2.  Navega por el catálogo y agrega libros al carrito.
+3.  Ingresa al carrito y presiona **"Finalizar Compra"**.
+    * *Nota:* No se requiere login para esta demostración de trazabilidad; el sistema asigna la venta a un usuario genérico preconfigurado en la BD.
+4.  Para agregar libros, accede a la ruta `http://localhost/digibook/products`.
+
+## ✒️ Autores
+
+* **Castillo, Claudio Marcelo Fabián** - *Desarrollo Backend, Base de Datos y Documentación NDT*
+* **Espinoza, Enrique** - *Desarrollo inicial y Procedimientos Almacenados*
 
 ---
-
-## 📄 Licencia
-
-Este proyecto es de uso académico.
+*Proyecto realizado con fines académicos - 2025*
